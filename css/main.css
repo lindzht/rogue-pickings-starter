@@ -175,3 +175,91 @@ footer span {
 
 
 
+/*---------- TABLET ----------*/
+@media (min-width: 768px) {
+	.top-section,
+	.bottom-section {
+		display: flex;
+		flex-flow: row wrap;
+		align-items: flex-start;
+}
+
+	header span {
+		padding-right: 3px;
+	}
+
+	.section-one,
+	.section-two,
+	.section-three {
+		width: 33%;
+	}
+
+	.reviews, .address {
+		padding-left: 60px;
+	}
+
+	.section-one h3 {
+		padding: 10px 0 0 10px;
+	}
+
+	.section-two {
+		border-left: 1px solid #eee;
+		border-right: 1px solid #eee;
+	}
+	
+	.section-two h3,
+	.section-three h3 {
+		padding: 10px 30px;
+	}
+}
+
+
+/*---------- MONITOR ----------*/
+@media (min-width: 1200px) {
+	header {
+		width: 100%;
+		border-bottom: 3px solid #77a466;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-flow: row nowrap;
+		padding-top: 30px;
+	}
+
+	header h1 {
+		border: none;
+		display: flex;
+		justify-content: flex-start;
+	}
+
+	header span {
+		padding-right: 3px;
+	}
+
+	header nav ul {
+		display: flex;
+	}
+
+
+	header nav ul li a{
+		text-decoration: none;
+		color:#77a466;
+	}
+	
+	.section-one,
+	.section-two,
+	.section-three {
+		width: 33%;
+	}
+
+	.section-two {
+		border-left: 1px solid #eee;
+		border-right: 1px solid #eee;
+	}
+
+	.section-two h3,
+	.section-three h3 {
+		padding: 10px 30px;
+}
+	
+}
